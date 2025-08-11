@@ -1,91 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="shortcut icon" href="favicon.ico" >
     <meta charset="UTF-8">
-    <title>JustRealRin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustRealRin/Rinnnnn Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
-        html, body {
-            background: #111;
-            color: #fff;
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
+        body {
+            font-family: 'Fredoka', sans-serif;
+            background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+            background-attachment: fixed; 
         }
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 32px 24px;
-            background: #181818;
-            border-radius: 12px;
-            box-shadow: 0 4px 32px #000a;
-        }
-        h1, h2, h3 {
-            color: #fff;
-            font-weight: bold;
-        }
-        p, ul, li {
-            line-height: 1.8;
-            font-size: 1.08em;
-        }
-        .underline {
-            text-decoration: underline;
-        }
-        .bold {
-            font-weight: bold;
-        }
-        .bold-underline {
-            font-weight: bold;
-            text-decoration: underline;
-        }
-        .section {
-            margin-bottom: 2em;
-        }
-        .copyleft {
-            margin-top: 3em;
-            color: #aaa;
-            font-size: 0.95em;
-            text-align: center;
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 12px 2vw;
-            }
+
+        .glassmorphism-container {
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px); 
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
     </style>
 </head>
-<body>
-<div class="container">
-    <div class="section">
-        <h3>Thank you for cloning, forking, or starring my project!</h3>
-        <h3>I used to work in cybersecurity and am currently unemployed.</h3>
-	<h3>In this situation, I want to use whatever limited knowledge and skills I have to help others, even if it’s only a very small contribution.</h3>
-        <h3>I’m just an ordinary person—there are many things I don’t do well and a lot I don’t fully understand.</h3>
-        <h3>I’m especially not good at writing code, so my code is fairly ordinary at best and sometimes lacking in logical structure.</h3>
-        <h3>Compared to coding, I learn command‐line controls much more quickly, so I’m probably better suited to network system administration and maintenance.</h3>
-        <h3>I welcome any suggestions—good or bad—about my project. All feedback is appreciated.</h3>
-        <h3>I hope to learn from and grow with more friends.</h3>
-        <h3>If you have any questions, feel free to open an issue on GitHub.</h3>
-        </br>
-	<div style="text-align: center;">
-        	<h3>Link</h3>
-			<h3><a href="https://github.com/JustRealRin">GitHub</a></h3>
-			<h3><a href="https://www.dlsite.com/home/circle/profile/=/maker_id/RG01053162.html">DLsite</a></h3>
-			<h3><a href="https://store.steampowered.com/dev/rinstu">Steam</a></h3>
-	 </div>
-	<div style="text-align: center;">
-        	<h3>Download</h3>
-        	<h3><a href="https://github.com/JustRealRin/Pixel_University/releases">Pixel University</a></h3>
-        	<h3><a href="https://github.com/JustRealRin/Kiridroid_Tools/releases">Kiridroid Tools</a></h3>
-       		<h3><a href="https://github.com/JustRealRin/Flash_Helper_Service_Killer/releases">Flash Helper Service Killer</a></h3>
-       		<h3><a href="https://github.com/JustRealRin/2345123_Tools/releases">2345123 Tools</a></h3>
-        	<h3><a href="https://github.com/JustRealRin/pure_browser/releases">Pure Browser</a></h3>
-       		<h3><a href="https://github.com/JustRealRin/pure_browser_cn/releases">Pure浏览器</a></h3>
-        	<h3><a href="https://github.com/JustRealRin/rin_s_original_puzzle_lovelive/releases">Rin's original puzzle - lovelive</a></h3>
-		<h3><a href="https://github.com/JustRealRin/Idol_Hands_Perfect_Savedata">Idol Hands Perfect Savedata</a></h3>
-		<p>Copyleft 🄯 JustRealRin(Rin)</p>
-    </div>
-	</div>
-</div>
+<body class="min-h-screen flex flex-col items-center justify-center p-4 sm:p-6 md:p-8">
+
+    <main class="w-full max-w-2xl space-y-6">
+        <section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+            <h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">About</h2>
+            <p class="text-gray-700 leading-relaxed">
+            Thank you for cloning, forking, or starring my project!
+            </br>
+            I used to work in cybersecurity and am currently unemployed.
+            In this situation, I want to use whatever limited knowledge and skills I have to help others, even if it’s only a very small contribution.
+            </br>
+            I’m just an ordinary person—there are many things I don’t do well and a lot I don’t fully understand.
+            </br>
+            I’m especially not good at writing code, so my code is fairly ordinary at best and sometimes lacking in logical structure.
+            </br>
+            Compared to coding, I learn command‐line controls much more quickly, so I’m probably better suited to network system administration and maintenance.
+            </br>
+            I welcome any suggestions—good or bad—about my project. All feedback is appreciated.
+            </br>
+            I hope to learn from and grow with more friends.
+            </br>
+            If you have any questions, feel free to open an issue on GitHub.
+            </p>
+        </section>
+
+        <section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+            <h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">Link</h2>
+            <ul class="space-y-3">
+                <li><a href="https://github.com/JustRealRin" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-300">GitHub</a></li>
+                <li><a href="https://www.dlsite.com/home/circle/profile/=/maker_id/RG01053162.html" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-300">DLsite</a></li>
+                <li><a href="https://store.steampowered.com/dev/rinstu" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-300">Steam</a></li>
+                <li><a href="https://steamcommunity.com/id/rinstu/groups" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-300">Steam Community Group</a></li>
+            </ul>
+        </section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">Pixel University</h2>
+        	<a href="https://github.com/JustRealRin/Pixel_University/releases" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">Kiridroid Tools</h2>
+        	<a href="https://github.com/JustRealRin/Kiridroid_Tools/releases" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">Flash Helper Service Killer</h2>
+        	<a href="https://github.com/JustRealRin/Flash_Helper_Service_Killer/releases" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">2345123 Tools</h2>
+        	<a href="https://github.com/JustRealRin/2345123_Tools/releases" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">Pure Browser</h2>
+        	<a href="https://github.com/JustRealRin/pure_browser/releases" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">Pure浏览器</h2>
+        	<a href="https://github.com/JustRealRin/pure_browser_cn/releases" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">Rin's original puzzle - lovelive</h2>
+        	<a href="https://github.com/JustRealRin/rin_s_original_puzzle_lovelive" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">Idol Hands Perfect Savedata</h2>
+        	<a href="https://github.com/JustRealRin/Idol_Hands_Perfect_Savedata/release" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+	<section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+   		<h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">After going to Hong Kong,I(Otokonoko)had planned to focus on studying,but suddenly,a girl confessed her love to me? What should I do…?</h2>
+        	<a href="https://github.com/JustRealRin/otobenkyou/release" class="inline-block text-center w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        Download
+    		</a>
+	</section>
+    </main>
+
+    <footer class="w-full max-w-2xl text-center mt-8 text-white text-opacity-80 text-sm">
+        <p>
+            The "Fredoka" font for this webpage is provided by Google Fonts, and is licensed under the 
+            <a href="http://scripts.sil.org/OFL" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">
+                SIL Open Font License 1.1
+            </a>
+            </br>
+            Copyleft 🄯 JustRealRin(Rin)
+        </p>
+    </footer>
+
 </body>
 </html>
