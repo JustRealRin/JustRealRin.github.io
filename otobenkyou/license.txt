@@ -1,5 +1,4 @@
 Orange
-CC BY 4.0
 作詞：白井舞
 作曲：龍崎一
 歌唱：白井舞&TOYro
@@ -7,13 +6,11 @@ URL:https://dova-s.jp/bgm/play14881.html
 https://www.youtube.com/watch?v=LEHyS9f43h8
 
 愛して嫌
-CC BY 4.0
 作詞：白井舞
 作曲：白井舞
 URL：https://dova-s.jp/bgm/play20773.html
 
 夏、目前のちょこみんちゅ論争
-CC BY 4.0
 作詞：白井舞
 作曲：龍崎一
 歌唱：白井舞&TOYro
@@ -21,14 +18,12 @@ URL：https://dova-s.jp/bgm/play14846.html
 https://www.youtube.com/watch?v=DJwMSNCfGS0
 
 カルモ街の分かれ道
-CC BY 4.0
 作詞：龍崎一
 作曲：龍崎一
 URL：https://dova-s.jp/bgm/play20785.html
 https://www.youtube.com/watch?v=wT7TsbM8Z1k
 
 流星コネクト
-CC BY 4.0
 作詞：龍崎一
 作曲：龍崎一
 歌唱：TOYro
@@ -37,7 +32,6 @@ https://www.youtube.com/watch?v=fn8Yy3f0okU
 https://www.youtube.com/watch?v=l-Dh6lo-Sck
 
 Adult→Children
-CC BY 4.0
 作詞：白井舞
 作曲：龍崎一
 URL：https://dova-s.jp/bgm/play20813.html
@@ -91,3 +85,4 @@ GameCreator
 开发者：上海神炎网络科技有限公司
 官网：https://www.gamecreator.com.cn
 Steam商店页面：https://store.steampowered.com/app/1570130/GameCreator
+
