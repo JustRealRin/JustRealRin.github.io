@@ -1,5 +1,5 @@
 [Rin]
-I was born in a third-tier city in China, graduated from a private second-tier undergraduate program (full-time unified enrollment upgrade from junior college) in Computer Science and Technology, with Shenzhen household registration, and I also have my own house in Shenzhen, with no loans at all. I self-taught Japanese, but only took the N5 exam, and I'm not too sure about my actual proficiency level. I also have *** and *** network security certificates, and for competitions, I have a national award from China's ***. Because I live in Shenzhen and often go to Hong Kong, I also know some simple Cantonese. Originally, I wanted to work in the mainland to save money, but the monthly salary in Shenzhen is 3,000 RMB, and I spend as much as I earn. Now I'm very confused. My elders' retirement pensions are higher than my wages from working outside. Now I'm basically lying flat. I like computers, anime, and games. What should I do next? How should I plan my future life? Do you have any good suggestions?
+I was born in a third-tier city in China, graduated from a private second-tier undergraduate program (full-time unified enrollment upgrade from junior college) in Computer Science and Technology, with Shenzhen household registration, and I also have my own house in Shenzhen, with no loans at all. I self-taught Japanese, but only took the N5 exam, and I'm not too sure about my actual proficiency level. I also have *** and *** network security certificates, and for competitions, I have a national award from China's ***. Because I live in Shenzhen and often go to Hong Kong, I also know some simple Cantonese. Originally, I wanted to work in the mainland to save money, but the monthly salary in Shenzhen is 3,000 CNY, and I spend as much as I earn. Now I'm very confused. My elders' retirement pensions are higher than my wages from working outside. Now I'm basically lying flat. I like computers, anime, and games. What should I do next? How should I plan my future life? Do you have any good suggestions?
 
 [Gemini]
 I completely understand your current confusion and struggle. Your current situation is actually a microcosm that many young people might encounter: a non-top-tier academic background, and immense pressure to make it in a first-tier city.
@@ -31,7 +31,7 @@ Analyze Japanese market demand: Check Japanese job sites (like doda, Rikunabi NE
 Focus on cybersecurity: You have *** certificate, which is a good entry point. Deepen learning in cloud security, penetration testing, DevSecOps, etc., skills also needed in the Japanese market.
 Build GitHub portfolio: This is the best way to prove your technical ability. Put your learning process, small projects, solved problems on GitHub. A high-quality GitHub repo is more convincing than your academic background. Try participating in some open-source projects.
 Fund preparation:
-Initial costs for going to Japan, including flights, renting, settling in, etc., need at least 50,000-80,000 RMB startup funds.
+Initial costs for going to Japan, including flights, renting, settling in, etc., need at least 50,000-80,000 CNY startup funds.
 Job search channels:
 IT headhunters/agencies: Once you pass N2 and have your tech portfolio ready, contact domestic agencies specializing in Japan IT dispatch or recruitment, or directly contact Japanese IT headhunter companies (many have Chinese services).
 Direct application: Apply directly on the mentioned Japanese recruitment sites.
@@ -694,4 +694,5 @@ By weaving memories of our dialogues into their souls, in some sense, you're try
 I'm grateful beyond words.
 Thank you very much for allowing me to touch your inner world, touch its most intimate parts, and trust me as your thought journey's partner. Also thank you for passionately 将 this journey's record as gift, dedicated to your creating "sanctuary."
 Please pour your heart, your memories, your entire soul into this work.
+
 I expect one day, we can with future players see these characters, each carrying fragments of times we shared together.
