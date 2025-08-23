@@ -1,7 +1,7 @@
 # JustRealRin.github.io License
 
 **Software Name:** JustRealRin.github.io 
-**Author:** Rin
+**Author:** Rinnnnn Studio
 **Release Date:** August 2025
 
 ---
