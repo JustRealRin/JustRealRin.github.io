@@ -18,7 +18,11 @@ For the full texts of the game’s EULA, GPLv3, and CC BY 4.0 licenses, please r
 
 Agreement signatory (Party A): Rinnnnn Studio
 Agreement signatory (Party B): You
-Place of signing: Hong Kong S.A.R., P.R.C.
+Place of signing: Hong Kong
+
+* In the event of any inconsistency between the English version and any translation, the English version shall prevail. Translations are provided for reference only.
+* ‘Hong Kong’,‘香港’ means the Hong Kong Special Administrative Region of the People’s Republic of China.
+* Any dispute, controversy or claim arising out of or in connection with this Agreement shall be finally settled by arbitration administered by the Hong Kong International Arbitration Centre (HKIAC) under its Administered Arbitration Rules. The seat of arbitration shall be Hong Kong. The language of the arbitration shall be English.
 
 [License1]
 License for After going to Hong Kong,I(Otokonoko)had planned to focus on studying,but suddenly,a girl confessed her love to me? What should I do…?(OTOBENKYOU)
@@ -521,3 +525,4 @@ Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
 
                      END OF TERMS AND CONDITIONS 
+
