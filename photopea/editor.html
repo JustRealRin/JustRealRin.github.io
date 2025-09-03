@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="referrer" content="unsafe-url">
+  <title>Online Image Editor</title>
+  <style>
+    html,body{height:100%;margin:0}
+    iframe{width:100%;height:100%;border:0;display:block}
+  </style>
+  <link rel="icon" href="https://justrealrin.github.io/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <iframe id="pp"
+          title="Photopea Editor"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+          referrerpolicy="unsafe-url"
+          src="https://www.photopea.com"></iframe>
+  <script>
+    console.log('editor document.referrer =', document.referrer);
+  </script>
+</body>
+</html>
