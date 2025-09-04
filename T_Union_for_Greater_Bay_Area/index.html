@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>粵港澳大灣區“全國通”卡異地可用情況統計</title>
+  <title>粵港澳大灣區"全國通"卡異地可用情況統計</title>
   <style>
     html,body {
       height:100%;
@@ -55,23 +55,31 @@
       box-sizing:border-box;
     }
 
-    th.left {
+    th:first-child,
+    td:first-child {
       position:sticky;
       left:0;
-      background:#fafafa;
       z-index:3;
       text-align:left;
       padding-left:12px;
       font-weight:700;
+      min-width:160px;
+      width:200px;
+      background:#fafafa;
     }
 
-    td.left {
-      text-align:left;
-      padding-left:12px;
+    thead th:first-child {
+      z-index:4;
+    }
+    
+    tbody th:first-child,
+    tbody td:first-child {
       background:#fff;
-      white-space:nowrap;
       font-weight:600;
     }
+
+    tbody tr:nth-child(odd) td:first-child { background: #fff; }
+    tbody tr:nth-child(even) td:first-child { background: #fbfbfb; }
 
     thead th {
       background:#fafafa;
@@ -79,11 +87,6 @@
       position:sticky;
       top:0;
       z-index:2;
-    }
-
-    th:first-child, td:first-child {
-      width:200px;
-      min-width:160px;
     }
 
     tbody tr:nth-child(odd) td { background: #fff; }
@@ -98,6 +101,7 @@
       overflow:auto;
       border:1px solid #eee;
       border-radius:4px;
+      max-height:80vh;
     }
   </style>
   <link rel="icon" href="https://raw.githubusercontent.com/JustRealRin/JustRealRin.github.io/refs/heads/main/favicon.ico" type="image/x-icon">
@@ -107,13 +111,13 @@
     <div class="table-wrap" role="region" aria-label="大灣區全國通卡典型可用情況表">
       <table>
         <caption>
-          粵港澳大灣區“全國通”卡異地可用情況統計
-          <span class="subtitle">*本表排除了本地卡本地用的情況 (例如在香港使用八達通·全國通)，以下測試均透過“交通聯合”錢包扣賬。</span>
+          粵港澳大灣區"全國通"卡異地可用情況統計
+          <span class="subtitle">*本表排除了本地卡本地用的情況 (例如在香港使用八達通·全國通)，以下測試均透過"交通聯合"錢包扣賬。</span>
         </caption>
 
         <thead>
           <tr>
-            <th class="left">地點 / 交通工具</th>
+            <th>地點 / 交通工具</th>
             <th>香港</th>
             <th>澳門</th>
             <th>深圳</th>
@@ -142,7 +146,7 @@
 
         <tbody>
           <tr>
-            <td class="left">港珠澳大橋穿梭巴士</td>
+            <td>港珠澳大橋穿梭巴士</td>
             <td>√僅售票機購票</td>
             <td>×</td>
             <td>/</td>
@@ -169,34 +173,34 @@
           </tr>
 
           <tr>
-            <td class="left">高速鐵路</td>
-            <td>×</td>
+            <td>高速鐵路</td>
+            <td>×港鐵及國鐵</td>
             <td>/</td>
-            <td>√僅深鐵城際*暫未開通</td>
-            <td>×</td>
-            <td>√僅廣東城際 *深鐵城際暫未開通</td>
-            <td>√僅廣東城際</td>
-            <td>√僅廣東城際 *深鐵城際暫未開通</td>
-            <td>√僅廣東城際</td>
-            <td>√僅廣東城際 *深鐵城際暫未開通</td>
-            <td>√僅廣東城際</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
-            <td>×</td>
+            <td>√僅深鐵城際*暫未開通，國鐵綫無法使用</td>
+            <td>×國鐵</td>
+            <td>√僅廣東城際 *深鐵城際暫未開通，國鐵綫無法使用</td>
+            <td>√僅廣東城際，國鐵綫無法使用</td>
+            <td>√僅廣東城際 *深鐵城際暫未開通，國鐵綫無法使用</td>
+            <td>√僅廣東城際，國鐵綫無法使用</td>
+            <td>√僅廣東城際 *深鐵城際暫未開通，國鐵綫無法使用</td>
+            <td>√僅廣東城際，國鐵綫無法使用</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
+            <td>×國鐵</td>
           </tr>
 
           <tr>
-            <td class="left">巴士</td>
+            <td>巴士</td>
             <td>×</td>
             <td>√</td>
             <td>√</td>
@@ -223,7 +227,7 @@
           </tr>
 
           <tr>
-            <td class="left">地鐵</td>
+            <td>地鐵</td>
             <td>/</td>
             <td>/</td>
             <td>√</td>
@@ -250,7 +254,7 @@
           </tr>
 
           <tr>
-            <td class="left">港鐵</td>
+            <td>港鐵</td>
             <td>√僅市區常規綫路</td>
             <td>/</td>
             <td>√</td>
@@ -277,7 +281,7 @@
           </tr>
 
           <tr>
-            <td class="left">輕軌/雲巴/磁懸浮</td>
+            <td>輕軌/雲巴/磁懸浮</td>
             <td>×</td>
             <td>×</td>
             <td>√</td>
@@ -304,7 +308,7 @@
           </tr>
 
           <tr>
-            <td class="left">輪渡/水上巴士</td>
+            <td>輪渡/水上巴士</td>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -331,7 +335,7 @@
           </tr>
 
           <tr>
-            <td class="left">有軌電車</td>
+            <td>有軌電車</td>
             <td>×</td>
             <td>/</td>
             <td>√</td>
