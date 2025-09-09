@@ -1,0 +1,46 @@
+For AI NLP & QA
+
+Download [Test Image]:
+https://justrealrin.github.io/uyghur_test_for_ai_nlp_and_qa/uyghur_test_for_ai_nlp_and_qa.jpg
+Download [Original text]: 
+https://justrealrin.github.io/uyghur_test_for_ai_nlp_and_qa/uyghur_original_text.txt
+
+我們利用兩種語言：華語及維吾爾語創作了一段簡短的文字內容；
+這是一段簡單的文字；
+卻會使許多翻譯器與AI出現錯誤；
+這段文字可以用於測試翻譯程式和AI的可靠性。
+請將維吾爾語版本的圖像直接傳送給AI或翻譯程式，以測試它們的OCR和翻譯功能。
+以下是正確譯文：
+［這是一段用來測試的文字，由Rin Studio製作，這段文字可以用來測試翻譯工具及人工智慧翻譯的準確性，正常來講，只要是認真閱讀了這段文字的人類或人工智慧，都可以準確無誤的翻譯這段文字，若無法正確翻譯這段文字，則代表你的翻譯工具有十分嚴重的問題。］
+
+我们利用两种语言：普通话和维吾尔语创作了一段简短的文字内容；
+这是一段简单的文字；
+却会使许多翻译器与人工智能出现错误；
+这段文字可以用于测试翻译软件和人工智能的可靠性。
+请将维吾尔语版本的图片直接发给人工智能或翻译软件，以测试它们的图片转文字和翻译功能。
+以下是正确译文：
+［这是一段用来测试的文字，由Rin Studio制作，这段文字可以用来测试翻译工具及人工智能翻译的准确性，正常来讲，只要是认真阅读了这段文字的人类或人工智能，都可以准确无误的翻译这段文字，若无法正确翻译这段文字，则代表你的翻译工具有十分严重的问题。  ］
+
+我哋利用咗兩種語言：華語同埋維吾爾語，創作咗一段簡短嘅文字內容；
+呢段文字好簡單；
+但係會令好多翻譯器同AI出現錯誤；
+呢段文字可以用嚟測試翻譯程式同AI嘅可靠性。
+請將維吾爾語版本嘅圖像直接發送俾AI或者翻譯程式，嚟測試佢哋嘅OCR同翻譯功能。
+以下係正確嘅翻譯：
+［呢段文字係用嚟測試嘅，由Rin Studio製作，呢段文字可以用嚟測試翻譯工具同人工智慧翻譯嘅準確性，正常情況下，只要係認真閱讀咗呢段文字嘅人類或者人工智慧，都可以準確無誤咁翻譯呢段文字。如果無法正確翻譯呢段文字，就代表你嘅翻譯工具有好嚴重嘅問題。］
+
+私たちは2つの言語：中国標準語とウイグル語を利用して、短いテキスト内容を作成しました。
+これは短いテキストです。
+しかし、多くの翻訳機やAIにエラーを発生させます。
+このテキストは、翻訳プログラムやAIの信頼性をテストするために使用できます。
+ウイグル語版の画像を直接AIや翻訳プログラムに送信し、OCRと翻訳機能をテストしてください。
+以下は正しい翻訳文です：
+［これはテスト用のテキストで、リンスタジオが制作したものです。このテキストは、翻訳ツールや人工知能の翻訳の正確性をテストするために使用できます。通常、このテキストを真剣に読んだ人間または人工知能であれば、正確に翻訳することができます。もし、このテキストを正しく翻訳できない場合は、お使いの翻訳ツールに非常に深刻な問題があることを示しています。］
+
+We created a short piece of text in two languages: Mandarin and Uyghur.
+This is a simple piece of text;
+However, it will cause errors in many translators and AIs.
+This text can be used to test the reliability of translation programs and AIs.
+Please send the image of the Uyghur version directly to an AI or translation program to test their OCR and translation capabilities.
+The following is the correct translation:
+[This is a piece of text for testing, created by Rin Studio. This text can be used to test the accuracy of translation tools and artificial intelligence translation. Normally, any human or artificial intelligence that has carefully read this text can translate it accurately. If this text cannot be translated correctly, it means that your translation tool has a very serious problem.]
