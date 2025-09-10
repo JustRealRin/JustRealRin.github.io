@@ -1,16 +1,16 @@
 Notes regarding publishing our games on Steam
 
-We released three games in total. All three were unable to be listed on Steam for different reasons, and our earliest developer account (Dev:LuoJiu) was banned by Valve after it was hijacked by hackers.
+We released three games in total. All three were unable to be listed on Steam for different reasons .
 
-2019: The Sky (Dev:LuoJiu)
-Available download channels:Website, Microsoft OneDrive, Google Drive, BILIBILI (Mainland China), linovel.net (Mainland China)
+2019 : The Sky (Dev : Luo Jiu)
+Available download channels : Website , Microsoft OneDrive , Google Drive , BILIBILI (Mainland China) , linovel.net (Mainland China)
 *No longer available
 
-2024: 7 Days Girlfriend (Dev:Rinnnnn Studio)
-Available download channels:Website, Microsoft OneDrive, Google Drive
+2024 : 7 Days Girlfriend (Dev : Rinnnnn Studio)
+Available download channels : Website , Microsoft OneDrive , Google Drive
 *END of Service
 
-2025: OTOBENKYOU (Dev:Rinnnnn Studio)
-Planned distribution channels:Website, GitHub, Google Drive, itch.io, Microsoft Store
+2025 : OTOBENKYOU (Dev : Rinnnnn Studio)
+Planned distribution channels : Website , DLsite , GitHub , Google Drive , itch.io , Microsoft Store
 
-We are considering alternative options and are actively researching strategies to publish the games on DLsite, itch.io, Microsoft Store, Google Play Store, and the Apple App Store.
+We are considering alternative options and are actively researching strategies to publish the games on DLsite , itch.io , Microsoft Store , Google Play Store , and the Apple App Store .
