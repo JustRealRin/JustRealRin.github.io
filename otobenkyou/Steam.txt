@@ -3,12 +3,12 @@ Notes regarding publishing our games on Steam
 We released three games in total. All three were unable to be listed on Steam for different reasons .
 
 2019 : The Sky (Dev : Luo Jiu)
-Available download channels : Website , Microsoft OneDrive , Google Drive , BILIBILI (Mainland China) , linovel.net (Mainland China)
-*No longer available
+Available download channels : Website , Microsoft OneDrive , Google Drive , BILIBILI ( Mainland China ) , linovel.net ( Mainland China )
+* No longer available
 
 2024 : 7 Days Girlfriend (Dev : Rinnnnn Studio)
 Available download channels : Website , Microsoft OneDrive , Google Drive
-*END of Service
+* END of Service
 
 2025 : OTOBENKYOU (Dev : Rinnnnn Studio)
 Planned distribution channels : Website , DLsite , GitHub , Google Drive , itch.io , Microsoft Store
