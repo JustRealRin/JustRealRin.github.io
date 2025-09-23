@@ -1,0 +1,9 @@
+RS Engine is a rapid development and deployment engine centered on HTML5, suitable for creating Progressive Web Apps, websites, and games.
+
+It is compatible with projects developed using Adobe Animate, GameCreator, IntelliJ IDEA, and Android Studio.
+
+The engine enables quick resource swapping and UI/UX management for projects built with or containing HTML5, XML, CSS, JavaScript (including JSON), and TypeScript.
+
+To accommodate the legacy technology requirements of certain clients during outsourced projects (such as Windows 7 32-bit with Internet Explorer and the ActiveX Flash Player), RS Engine supports the editing of ActionScript (.as) files. However, we plan to phase out this technology in the future.
+
+Please note that the engine is currently for internal use only and is not available to the public. Thank you for your understanding.
