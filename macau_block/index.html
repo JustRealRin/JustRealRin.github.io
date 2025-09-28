@@ -1,1 +1,122 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>澳門網絡封鎖情況測試</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://justrealrin.github.io/favicon.ico" type="image/x-icon">
+</head>
+    <style>
+        body {
+            font-family: 'Fredoka', sans-serif;
+            background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+            background-attachment: fixed; 
+        }
+
+        .glassmorphism-container {
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px); 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-4 sm:p-6 md:p-8">
+    <main class="w-full max-w-2xl space-y-6">
+        <section class="glassmorphism-container rounded-2xl shadow-lg p-6 sm:p-8">
+            <h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-200 pb-3 mb-4">測試結果</h2>
+            <p class="text-gray-700 leading-relaxed">
+            <img src="https://justrealrin.github.io/ai_rain_chan/0.jpg"/> 
+            <br/>
+            本測試始於2025年9月28日0時0分，​我哋會持續更新呢個頁面，提供最新報告。
+            <br/>
+            <br/>
+            我哋團隊測試嗰陣，發現澳門有輕微嘅網絡封鎖：
+            <br/>
+            <br/>
+            ​用緊中國電信澳門（CTMO）網絡嘅時候，中國電信澳門對：
+            <br/>
+            1.​Snapchat官網做咗DNS污染，呢個係完全封鎖。
+            <br/>
+            2.​Telegram官網做咗TCP連接攔截，呢個係間歇性封鎖。
+            <br/>
+            <br/>
+            目前冇任何關於澳門網絡封鎖嘅報告，我哋都係第一次發現呢個問題。
+            <br/>
+            <br/>
+            ​因為我哋暫時未測試澳門電訊（CTM）、MTel電信同埋和記（3Macau）嘅網絡，所以測試樣本唔夠，未可以下定論。
+            <br/>
+            ​我哋會進一步跟進，睇下今次測到嘅網絡審查係中國電信澳門（CTMO）做嘅封鎖，定係全澳門嘅網絡都做咗特定嘅封鎖處理。
+            <br/>
+            <br/>
+            ​OONI測試報告如下： 
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/1.png"/> 
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/2.png"/> 
+            <br/>
+            <br/>
+            我哋手動測試嗰陣發現，Snapchat嘅官網完全入唔到，但係個App同IP載入功能正常，證實咗係DNS方面出咗問題，並非係TCP或UDP嘅深入封鎖。
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/3.png"/> 
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/4.png"/> 
+            <br/>
+            ​我哋手動測試嗰陣發現，Telegram嘅官網載入速度好慢，試咗十次，其中三次好快入到，五次載入得好慢，兩次載入失敗。
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/5.png"/> 
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/6.png"/> 
+            <br/>
+            有趣嘅係，轉用香港網絡之後，入Telegram官網嘅速度明顯快咗，而且可以好快入到Snapchat官網，證明香港並冇針對Snapchat同Telegram做封鎖，用OONI做嘅測試都可以證明到呢一點。
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/7.png"/> 
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/8.png"/>  
+            <br/>
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/9.png"/>  
+            <br/>
+            <img src="https://justrealrin.github.io/macau_block/10.png"/>  
+            <br/>
+            <br/>
+            ​網上面話澳門冇網絡封鎖嘅講法係唔準確嘅，澳門係有網絡封鎖，只係澳門嘅網絡用戶都幾少，亦都好少個人或者機構喺澳門做網絡測試。
+            <br/>
+            <br/>
+            ​但就算係咁，澳門依然係中國網絡審查封鎖最輕微嘅地區。
+            <br/>
+            <br/>
+            暫時未知澳門點解要針對Snapchat同Telegram做封鎖，亦都唔知呢個行為只係封鎖定係禁止，但考慮到Telegram入面有大量違反澳門法例嘅內容，呢個封鎖行為都可理解。但點解要對Snapchat做封鎖，而且力度仲大過Telegram呢？ 
+            <br/>
+            <br/>
+            ​我哋喺大灣區做咗測試： 
+            <br/>
+            目前Snapchat官網被廣東、澳門網絡完全封鎖，App被廣東網絡完全封鎖。
+            <br/>
+            目前Telegram官網被廣東網絡完全封鎖、被澳門網絡間歇性封鎖，App被廣東網絡完全封鎖。
+            <br/>
+            <br/>
+            我哋分別用咗和記（3HK）、電訊盈科（PCCW/HKT+CSL）、中國移動香港（CMHK）、數碼通（SmarTone）嘅網絡，同埋DATA WING伺服器網絡嚟測試，得出嘅結論係：香港網絡並冇對Telegram同Snapchat作出任何封鎖行為。 
+            <br/>
+            <br/>
+            ​我哋喺唔同時間再試過，結果都一樣，所以可以肯定個封鎖問題唔係因為網絡唔穩定，或者server維護緊嘅可能性。
+            <br/>
+            </p>
+        </section>
+    </main>
+    <footer class="w-full max-w-2xl text-center mt-8 text-white text-opacity-80 text-sm">
+        <p>
+            The "Fredoka" font for this webpage is provided by Google Fonts, and is licensed under the 
+            <a href="http://scripts.sil.org/OFL" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">
+                SIL Open Font License 1.1
+            </a>
+            </br>
+            Copyleft 🄯 JustRealRin(Rin)
+        </p>
+    </footer>
+</body>
+</html>
