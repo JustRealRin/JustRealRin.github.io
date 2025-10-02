@@ -5,7 +5,9 @@
 Rinnnnn Studio是一个成立于香港，由动漫、游戏爱好者们共同参与的，不涉及任何商业活动的同人社团。
 所有作品中的内容均为艺术创作需要，无任何政治内容。
 所有代码、技术测试类内容均为技术需要，无任何政治内容。
-本团队所有成员严格遵守并维护中华人民共和国、中华人民共和国香港特别行政区、中华人民共和国澳门特别行政区所有法律法规。
+本团队社团所有成员严格遵守并维护中华人民共和国、中华人民共和国香港特别行政区、中华人民共和国澳门特别行政区所有法律法规。
+本社团成员于香港、澳门未从事过也永不会从事任何受雇工作，我们严厉反对违反入境条例的行为。
+同时，我们也不会从事水货走私的工作，于港澳而言，此行为影响当地市场；于内地而言，此行为涉嫌偷逃漏税。
 
 本人凜及同人社團Rinnnnn Studio之成員，喺內地期間，並無使用自建代理伺服器、VPN、Shadowsocks、V2Ray 或其他任何「翻牆」服務去繞過內地嘅「防火長城」。
 本人及社團成員喺中國嘅內地、香港同澳門三地，透過CMHK、CSL及SmarTone嘅網絡訪問國際互聯網，並透過CTM及China Telecom (Macau)嘅網絡訪問TikTok。以上皆屬合法合規使用本地或國際漫遊網絡上網，並無違反任何法律或規例。
@@ -14,7 +16,9 @@ Rinnnnn Studio是一个成立于香港，由动漫、游戏爱好者们共同参
 Rinnnnn Studio為一個於香港成立、由動漫及遊戲愛好者組成嘅同人社團，並無涉及任何商業活動。
 所有作品中嘅內容都係為咗藝術創作需要，冇任何政治目的。
 所有程式編碼、技術測試類嘅內容都係為咗技術需要，冇任何政治目的。
-本團隊所有成員都嚴格遵守並維護中華人民共和國、中華人民共和國香港特別行政區、同埋中華人民共和國澳門特別行政區嘅所有法律法規。
+本社團所有成員都嚴格遵守並維護中華人民共和國、中華人民共和國香港特別行政區、同埋中華人民共和國澳門特別行政區嘅所有法律法規。
+我哋喺香港、澳門從未亦都永不會從事任何僱用工作，我哋嚴厲反對任何違反入境條例嘅行為。
+同時，我哋亦都唔會走水貨，呢種行為喺港澳會影響到本地市場；而喺內地呢，就涉嫌逃稅漏稅。
 
 I, Rin, and the members of the doujin circle Rinnnnn Studio, when located in China mainland, have not used self-hosted proxy servers, VPNs, Shadowsocks, V2Ray, or other “circumvention” services to bypass the “Great Firewall of China.”
 While in China mainland, Hong Kong, and Macau, I and the members of the circle access the international internet via CMHK, CSL and Smartone networks, and access TikTok via CTM and China Telecom (Macau) networks. These are lawful and compliant uses of local or international roaming networks to access the internet and do not violate any laws or regulations.
@@ -23,7 +27,9 @@ When traveling in Hong Kong and Macau, I and circle members will participate in 
 Rinnnnn Studio is a doujin circle established in Hong Kong made up of anime and game enthusiasts and does not engage in any commercial activities.
 All content in all works is for the purpose of artistic creation and has no political agenda.
 All code and technical testing-related content is for technical purposes and has no political agenda.
-All members of this team strictly abide by and uphold all laws and regulations of the People's Republic of China, the Hong Kong Special Administrative Region of the People's Republic of China, and the Macau Special Administrative Region of the People's Republic of China.
+All members of our circle strictly abide by and uphold all laws and regulations of the People's Republic of China, the Hong Kong Special Administrative Region of the People's Republic of China, and the Macau Special Administrative Region of the People's Republic of China.
+Members of our circle have never been and will never be engaged in any employment in Hong Kong or Macau. We strongly oppose any violation of immigration regulations.
+Furthermore, we will not engage in parallel importing (water trading). For Hong Kong and Macau, this activity disrupts the local market; for mainland China, it is suspected of involving tax evasion.
 
 Eu, Rin, e os membros do círculo doujin Rinnnnn Studio, quando em território da China continental, não utilizámos servidores proxy auto-hospedados, VPNs, Shadowsocks, V2Ray ou outros serviços de «contorno» para evitar a «Grande Firewall» da China.
 Eu e os membros do grupo, na China continental, em Hong Kong e em Macau, acedemos à Internet internacional através das redes da CMHK, CSL e SmarTone, e acedemos ao TikTok através das redes da CTM e da China Telecom (Macau). Tratam-se de utilizações legais e em conformidade com as normas aplicáveis ao uso de redes locais ou de roaming internacional para aceder à Internet, sem violação de quaisquer leis ou regulamentos.
@@ -33,3 +39,5 @@ O Rinnnnn Studio é um círculo doujin estabelecido em Hong Kong, composto por e
 Todo o conteúdo em todas as obras destina-se à criação artística e não possui qualquer finalidade política.
 Todo o código e conteúdo relacionado a testes técnicos destina-se a fins técnicos e não possui qualquer finalidade política.
 Todos os membros desta equipa cumprem e defendem rigorosamente todas as leis e regulamentos da República Popular da China, da Região Administrativa Especial de Hong Kong da República Popular da China e da Região Administrativa Especial de Macau da República Popular da China.
+Os membros da nossa equipa nunca exerceram nem exercerão qualquer trabalho remunerado em Hong Kong ou Macau. Opomo-nos veementemente a qualquer violação das leis de imigração.
+Ao mesmo tempo, não nos envolveremos no contrabando de mercadorias (comércio paralelo). Para Hong Kong e Macau, esta atividade afeta o mercado local; para a China Continental, é suspeita de evasão fiscal.
