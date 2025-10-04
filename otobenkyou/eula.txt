@@ -40,7 +40,7 @@ Attribution — You must give appropriate credit, provide a link to the license,
 No additional restrictions — You cannot apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 Example of Attribution:
 If you are using the work without changes:
-"[Pixel University]" by [Rin] is licensed under CC BY 4.0.
+"[OTOBENKYOU]" by [Rin] is licensed under CC BY 4.0.
 If you have adapted the work:
 This work, "[Your New Title]", is a derivative of "[OTOBENKYOU]" by [Rinnnnn Studio], used under CC BY 4.0.
 
@@ -525,4 +525,5 @@ Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
 
                      END OF TERMS AND CONDITIONS 
+
 
