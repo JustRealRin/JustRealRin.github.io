@@ -11,6 +11,6 @@ Available download channels : Website , Microsoft OneDrive , Google Drive
 * END of Service
 
 2025 : OTOBENKYOU (Dev : Rinnnnn Studio)
-Planned distribution channels : Website , DLsite , GitHub , Google Drive , itch.io , Microsoft Store
+Planned distribution channels : Website , DLsite
 
 We are considering alternative options and are actively researching strategies to publish the games on DLsite , itch.io , Microsoft Store , Google Play Store , and the Apple App Store .
