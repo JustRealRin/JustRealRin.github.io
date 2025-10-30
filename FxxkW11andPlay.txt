@@ -1,0 +1,46 @@
+Ten infuriating problems with Android phones made specifically for Mainland China:
+
+1.Abuse of the so-called “anti-fraud” policy to restrict users from installing APKs.
+
+2.System apps are flooded with splash-screen ads, pop-up ads, and shake-triggered ads.
+
+3.System ads cannot be completely turned off: Xiaomi can only disable around 90%, OPPO and VIVO around 80%, Honor 60%, and Huawei just 50%.
+
+4.Users are forbidden from unlocking the bootloader or obtaining root access.
+
+5.Excessive and unauthorized collection of users’ private data.
+
+6.Flashing with 9008 mode often triggers the phone’s fuse mechanism, permanently bricking the device.
+
+7.Almost 80% of system services require a bound +86 phone number.
+
+8.About 50% of system services require a Mainland China ID card.
+
+9.Around 10% of system services require facial recognition authentication.
+
+10.False advertising.
+
+Two infuriating problems with the Google Play Store:
+
+1.While living abroad, users cannot download apps from their home country because Google restricts region switching in the Play Store.
+
+2.If you install certain apps via APKs, the Play Store forces warning messages to pop up, even when Play Protect is completely disabled.
+/*The app installed on your device is not recognized and could harm your device. To continue using this app, search for it on Google Play.*/
+
+Three infuriating problems with Microsoft Windows 11:
+
+1.Pervasive ads for Microsoft 365 and Xbox Game Pass.
+
+2.Microsoft’s relentless obsession with pushing bundled services.
+
+3.Microsoft has abandoned support for Windows Mixed Reality, just as they once gave up on Windows Phone.
+
+So
+
+My main devices have now switched to Apple products and Linux PCs, but that doesn’t mean I’ll stop developing software for Microsoft Windows 11 and Google Android™.
+
+Still, I hope more people will migrate to open-source systems like Linux, BSD, and TRON.
+
+If you’re a Google fan, you could start by trying ChromiumOS or AOSP (usually in GSI form), then gradually transition to Linux.
+
+Once you switch to an open-source system, your personal privacy and security will be protected to the maximum extent. No “administrator” will be able to peek at your data or restrict your actions. You will be free — even if you decide to uninstall the operating system entirely and turn your device into a useless brick!
