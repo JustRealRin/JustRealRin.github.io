@@ -1,1 +1,1 @@
-© 2013-2026 JustRealRin/Rinnnnn Studio. All Rights Reserved.
+© 2013-2026 Rinnnnn Studio All Rights Reserved.
