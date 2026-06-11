@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustRealRin</title>
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 20%, #a1c4fd 100%);
+            --glass-bg: rgba(255, 255, 255, 0.4);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --text-color: #1d1d1f;
+            --accent-color: #0071e3;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            padding: 40px 20px;
+        }
+
+        .glass-container {
+            max-width: 700px;
+            width: 100%;
+            background: var(--glass-bg);
+            backdrop-filter: blur(25px) saturate(180%);
+            -webkit-backdrop-filter: blur(25px) saturate(180%);
+            border: 1px solid var(--glass-border);
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            color: var(--text-color);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .crypto-list {
+            text-align: left;
+            margin-bottom: 30px;
+            max-height: 60vh;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .crypto-list::-webkit-scrollbar {
+            width: 6px;
+        }
+        .crypto-list::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        .crypto-list::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .crypto-item {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s ease;
+        }
+
+        .crypto-item:hover {
+            transform: scale(1.01);
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .crypto-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: var(--accent-color);
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .network-tag {
+            font-size: 0.75rem;
+            background: rgba(0, 113, 227, 0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: normal;
+        }
+
+        .crypto-address {
+            font-family: monospace;
+            word-break: break-all;
+            background: rgba(0, 0, 0, 0.05);
+            padding: 10px;
+            border-radius: 8px;
+            display: block;
+            margin-top: 8px;
+            font-size: 0.9rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: var(--text-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .back-button:hover {
+            opacity: 0.8;
+            transform: translateY(-1px);
+        }
+
+        .note {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 600px) {
+            .glass-container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-container">
+        <h1>加密貨幣收款地址<br><span style="font-size: 1.2rem; font-weight: normal;">Cryptocurrency Addresses</span></h1>
+        
+        <div class="crypto-list">
+            <div class="crypto-item">
+                <div class="crypto-name">Bitcoin <span class="network-tag">BTC</span></div>
+                <span class="crypto-address">17Ta9XhMZG6LovpQzYzUPkG3zFRpKw1mXe</span>
+            </div>
+            
+            <div class="crypto-item">
+                <div class="crypto-name">Ethereum <span class="network-tag">ERC</span></div>
+                <span class="crypto-address">0xb32fe16b04fa301067c1c1763592e5afc7cd6f6d</span>
+            </div>
+
+            <div class="crypto-item">
+                <div class="crypto-name">Solana <span class="network-tag">SOL</span></div>
+                <span class="crypto-address">JCDwcVneVJ39g2hug7qgWd6YkapbMLvTdNLrGyFGrTd2</span>
+            </div>
+
+            <div class="crypto-item">
+                <div class="crypto-name">BNB Chain <span class="network-tag">BSC</span></div>
+                <span class="crypto-address">0xb32fe16b04fa301067c1c1763592e5afc7cd6f6d</span>
+            </div>
+
+            <div class="crypto-item">
+                <div class="crypto-name">Tron <span class="network-tag">TRX</span></div>
+                <span class="crypto-address">TNJdskkfTbGk161RxmSBqYvmPXmmvK1iXU</span>
+            </div>
+        </div>
+
+        <p class="note">
+            用於銷售商品或接受打賞。轉賬前請務必確認網絡協議正確。<br>
+            For product sales and tip acceptance. Please double-check the network protocol before transferring.
+        </p>
+
+        <a href="index.html" class="back-button">返回主頁 / Back to Home</a>
+
+        <footer style="margin-top: 30px; font-size: 0.8rem; opacity: 0.6;">
+            Copyright © Rinnnnn Studio
+        </footer>
+    </div>
+
+</body>
+</html>
