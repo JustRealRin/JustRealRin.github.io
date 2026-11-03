@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustRealRin</title>
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 20%, #a1c4fd 100%);
+            --glass-bg: rgba(255, 255, 255, 0.4);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --text-color: #1d1d1f;
+            --accent-color: #0071e3;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            padding: 40px 20px;
+        }
+
+        .glass-container {
+            max-width: 900px;
+            width: 100%;
+            background: var(--glass-bg);
+            backdrop-filter: blur(25px) saturate(180%);
+            -webkit-backdrop-filter: blur(25px) saturate(180%);
+            border: 1px solid var(--glass-border);
+            border-radius: 30px;
+            padding: 50px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            color: var(--text-color);
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 40px 0 20px;
+            color: var(--accent-color);
+            border-bottom: 1px solid rgba(0, 113, 227, 0.2);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .account-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .account-item {
+            display: block;
+            padding: 12px 15px;
+            font-size: 0.95rem;
+            background: rgba(255, 255, 255, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(5px);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .account-item:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .center-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .center-container .account-item {
+            width: 100%;
+            max-width: 280px; 
+        }
+
+        .crypto-btn-container {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .crypto-button {
+            display: inline-block;
+            padding: 16px 32px;
+            background: rgba(255, 255, 255, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 50px;
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .crypto-button:hover {
+            background: var(--accent-color);
+            color: white !important;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 113, 227, 0.3);
+        }
+
+        .crypto-button span {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: normal;
+            margin-top: 4px;
+            opacity: 0.9;
+        }
+        
+        .important-section {
+            background: rgba(255, 255, 255, 0.25);
+            padding: 30px;
+            border-radius: 24px;
+            margin-top: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            text-align: center;
+        }
+        
+        .important-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #d70000;
+            margin-bottom: 5px;
+        }
+        
+        .important-subtitle {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #d70000;
+            opacity: 0.85;
+            margin-bottom: 15px;
+        }
+        
+        .important-text {
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .warning-section {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 24px;
+            margin-top: 40px;
+            font-size: 0.95rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .warning-title {
+            font-weight: bold;
+            color: #d70000;
+            margin-bottom: 15px !important;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            .glass-container {
+                padding: 35px 20px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            .account-list {
+                grid-template-columns: 1fr;
+            }
+            .center-container .account-item {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-container">
+        <h1>我的各平台賬號 - 謹防假冒 慎防詐騙</h1>
+        <h1 style="font-size: 1.4rem; opacity: 0.8; margin-top: 0;">公式アカウント一覧 - なりすましや詐欺にご注意ください</h1>
+        <h1 style="font-size: 1.4rem; opacity: 0.8; margin-top: 0;">My Accounts Across All Platforms - Beware of Impostors & Scams</h1>
+
+        <h2>我的個人賬號 / 個人アカウント / Personal Accounts</h2>
+        <div class="account-list">
+            <a href="https://justrealrin.github.io/" target="_blank" class="account-item">Fans Page(Github.io)</a>
+            <a href="https://github.com/JustRealRin" target="_blank" class="account-item">GitHub</a>
+            <a href="https://www.youtube.com/@JustRealRin/" target="_blank" class="account-item">YouTube</a>
+            <a href="https://www.youtube.com/@JustRealRin1" target="_blank" class="account-item">YouTube</a>
+            <a href="https://www.youtube.com/@VR%E5%B0%8F%E5%87%9B%E5%90%8C%E5%AD%A6" target="_blank" class="account-item">YouTube</a>
+            <a href="https://www.youtube.com/@Rinnnnn_desu" target="_blank" class="account-item">YouTube</a>
+            <a href="https://www.youtube.com/@justrealrin_cos" target="_blank" class="account-item">YouTube</a>
+            <a href="https://www.tiktok.com/@justrealrin" target="_blank" class="account-item">TikTok</a>
+            <a href="https://www.tiktok.com/@justrealrin1" target="_blank" class="account-item">TikTok</a>
+            <a href="https://www.lemon8-app.com/@justrealrin1" target="_blank" class="account-item">Lemon8</a>
+            <a href="https://www.nicovideo.jp/user/130632836" target="_blank" class="account-item">ニコニコ</a>
+            <a href="https://www.bilibili.tv/en/space/2132056352" target="_blank" class="account-item">BiliBili</a>
+            <a href="https://x.com/JustRealRin" target="_blank" class="account-item">𝕏</a>
+            <a href="https://x.com/JustRealRin_ja" target="_blank" class="account-item">𝕏</a>
+            <a href="https://mypage.syosetu.com/2932014" target="_blank" class="account-item">小説家になろう</a>
+            <a href="https://www.facebook.com/share/18HXHps1Lp" target="_blank" class="account-item">Facebook</a>
+            <a href="https://www.instagram.com/justrealrin" target="_blank" class="account-item">Instagram</a>
+            <a href="https://www.instagram.com/justrealrin1" target="_blank" class="account-item">Instagram</a>
+            <a href="https://www.threads.net/@justrealrin" target="_blank" class="account-item">Threads</a>
+            <a href="https://www.threads.net/@justrealrin1" target="_blank" class="account-item">Threads</a>
+            <a href="https://www.tumblr.com/justrealrin" target="_blank" class="account-item">Tumblr</a>
+            <a href="https://bsky.app/profile/justrealrin.bsky.social" target="_blank" class="account-item">Bluesky</a>
+            <a href="https://soundcloud.com/justrealrin" target="_blank" class="account-item">SoundCloud</a>
+            <a href="https://www.twitch.tv/justrealrin" target="_blank" class="account-item">Twitch</a>
+            <a href="https://bere.al/justrealrin" target="_blank" class="account-item">BeReal.</a>
+            <a href="https://peing.net/en/justrealrin" target="_blank" class="account-item">Peing - 質問箱</a>
+            <a href="https://vimeo.com/justrealrin" target="_blank" class="account-item">Vimeo</a>
+            <a href="https://snapchat.com/t/qdUZOm2N" target="_blank" class="account-item">Snapchat</a>
+            <a href="https://k.kwai.com/u/@JustRealRin/43B4MC5b" target="_blank" class="account-item">Kwai</a>
+            <a href="https://line.me/ti/g/th_A7Kt8Ah" target="_blank" class="account-item">LINE</a>
+            <a href="https://t.me/justrealrin" target="_blank" class="account-item">Telegram</a>
+            <a href="https://t.me/rinssubgroup" target="_blank" class="account-item">Telegram Group</a>
+            <a href="https://www.change.org/u/justrealrin" target="_blank" class="account-item">change.org</a>
+            <a href="https://mp.net/g/mp_RP-AYA" target="_blank" class="account-item">MPChat</a>
+            <a href="https://app.binance.com/uni-qr/cpro/Square-Creator-10d1864f82653?l=zh-TW&r=QJ20PE5N&uc=app_square_share_link&us=copylink" target="_blank" class="account-item">Binance Square</a>
+            <a href="https://ko-fi.com/justrealrin" target="_blank" class="account-item">Ko-fi</a>
+        </div>
+<!-- 
+        <div class="warning-section">
+            <p class="warning-title">中国内地的朋友们请注意</p>
+            <p>Rin(JustRealRin)现时未有继续开立任何中国内地网络平台账号！</p>
+            <p>本人持有：<br>
+            BiliBili（国际版）账号，非哔哩哔哩（中国内地版）账号；<br>
+            TikTok（国际版）账号，非抖音（中国内地版）账号；<br>
+            Kwai（国际版）账号，非快手（中国内地版）账号。</p>
+        </div>
+-->
+        <footer>
+            Copyright © JustRealRin
+        </footer>
+    </div>
+
+</body>
+</html>
